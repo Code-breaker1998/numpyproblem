@@ -1,0 +1,41 @@
+/*@media media and (min-resolution:1.5dpi){
+ h1{
+  background-color:orange;
+ }
+}*/
+
+
+/*
+input[type='text']:disabled {border:1px dotted gray;}
+input[type='text']:enabled {border:1px solid browm;}
+*/
+/*
+@font-face{
+    font-family:'CartoonistHand';
+    src:url('CartoonistHand.woff') format('woff')
+}
+
+.font-face h1{
+    font-family: CartoonistHand,sans-serif;
+}
+.font-face h2{
+    font-family: CartoonistHand,sans-serif;
+}
+*/
+
+/*h1{
+    font-size-adjust:1;*/     /* All fonts have an "aspect value" which is the size-difference between the lowercase letter "x" and the uppercase letter "X".
+
+                               When the browser knows the "aspect value" for the first selected font, the browser can figure out what font-size to use when displaying text with the second choice font.*/
+
+body{
+    background:url('Screenshot (237).png') no-repeat ;
+    /*background-size:500px auto;*/
+    /* background-size:contain;    fits image completely in desktop */
+    /* background-size:cover ; first it chooses max(height,weight) then it fits image based on it */
+    border-width:20px;
+    padding:20px;
+    background-position:100% -0%;
+    background-origin:content-box;
+}
+
